@@ -8,3 +8,6 @@ Therefore my Notebook is mainly drawn from there.
 3. Inference is also done at the end of the train.ipynb Notebook.
 
 ## How to use the web app
+1. Run `pip install -r requirements.txt` in the terminal to install Flask and fastai.
+2. Run `python3 app.py`.
+3. Now in order to use the classifier, you can either enter an image URL like this *http://127.0.0.1:5000/classify?url=YOUR_URL_HERE* or you can simply submit the URL in the form at the main page. The page will return probabilities for the cities that are currently represented in the model.
